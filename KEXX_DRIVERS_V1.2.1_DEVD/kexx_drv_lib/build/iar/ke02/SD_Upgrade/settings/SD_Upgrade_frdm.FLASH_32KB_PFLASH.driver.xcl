@@ -16,7 +16,7 @@
 
 "--device=MKE02Z64xxx2" 
 
-"--drv_communication_log=C:\Users\b55908\Desktop\FatfsPorting\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\cspycomm.log" 
+"--drv_communication_log=C:\Users\b55908\Documents\GIT\test\KE02_SD_Upgrade\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\cspycomm.log" 
 
 "--drv_communication=USB0" 
 

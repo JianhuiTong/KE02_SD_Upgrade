@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\b55908\Desktop\FatfsPorting\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.general.xcl" --backend -f "C:\Users\b55908\Desktop\FatfsPorting\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\b55908\Documents\GIT\test\KE02_SD_Upgrade\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.general.xcl" --backend -f "C:\Users\b55908\Documents\GIT\test\KE02_SD_Upgrade\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\b55908\Desktop\FatfsPorting\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.general.xcl" "--debug_file=%1" --backend -f "C:\Users\b55908\Desktop\FatfsPorting\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "C:\Users\b55908\Documents\GIT\test\KE02_SD_Upgrade\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.general.xcl" "--debug_file=%1" --backend -f "C:\Users\b55908\Documents\GIT\test\KE02_SD_Upgrade\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\settings\SD_Upgrade_frdm.FLASH_32KB_PFLASH.driver.xcl" 
 
 @echo off 
 :end
