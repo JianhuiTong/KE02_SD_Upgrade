@@ -1,0 +1,37 @@
+ -B 
+
+"--endian=little" 
+
+"--cpu=Cortex-M0+" 
+
+"--fpu=None" 
+
+"-p" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\Freescale\MKE02Z64xxx2.ddf" 
+
+"--drv_verify_download" 
+
+"--semihosting" 
+
+"--device=MKE02Z64xxx2" 
+
+"--drv_communication_log=C:\Users\b55908\Desktop\FatfsPorting\KEXX_DRIVERS_V1.2.1_DEVD\kexx_drv_lib\build\iar\ke02\SD_Upgrade\cspycomm.log" 
+
+"--drv_communication=USB0" 
+
+"--drv_interface_speed=auto" 
+
+"--jlink_initial_speed=32" 
+
+"--jlink_reset_strategy=0,0" 
+
+"--drv_interface=SWD" 
+
+"--drv_catch_exceptions=0x000" 
+
+"--drv_swo_clock_setup=72000000,0,2000000" 
+
+
+
+
